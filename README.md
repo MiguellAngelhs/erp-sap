@@ -17,9 +17,9 @@ docker-compose up -d --build
 ```
 virtualenv env --python=python3
 source env/bin/activate
-cd pyerp
+cd erp-sap
 crear archivo installed_apps.py
 pip3 install -r requirements.txt
 python manage.py init_pyerp
 python manage.py runserver
-```
+``` 
