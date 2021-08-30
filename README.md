@@ -1,5 +1,4 @@
-# PyERP
-
+# PRUEBA
 # Deploy
 ```
 apt-get update && apt-get upgrade -y
@@ -19,6 +18,7 @@ virtualenv env --python=python3
 source env/bin/activate
 cd erp-sap
 crear archivo installed_apps.py
+pip install --upgrade pip 
 pip3 install -r requirements.txt
 python manage.py init_pyerp
 python manage.py runserver
